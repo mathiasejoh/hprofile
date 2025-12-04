@@ -8,6 +8,8 @@ on:
       - main
 env:
   AWS_REGION: us-west-2
+  ECR_REPOSITORY: actions-cidc
+  EKS_CLUSTER: eksdemok8s
 jobs:
   Testing:
     runs-on: ubuntu-latest
